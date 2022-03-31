@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'News'
 ]
 
@@ -61,8 +62,8 @@ CORS_ORIGIN_WHITELIST = (
 CORS_ALLOW_METHODS = (
     'DELETE',
     'GET',
-    'OPTIONS',
-    'PATCH',
+    # 'OPTIONS',
+    # 'PATCH',
     'POST',
     'PUT',
 )
