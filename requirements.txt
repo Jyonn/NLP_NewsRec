@@ -1,3 +1,4 @@
 Django==3.0.6
 tqdm~=4.54.1
 SmartDjango~=3.6.8
+mysqlclient
