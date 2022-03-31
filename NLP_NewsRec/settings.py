@@ -51,14 +51,9 @@ MIDDLEWARE = [
     'SmartDjango.middleware.HttpPackMiddleware',
 ]
 
-ROOT_URLCONF = 'NLP_NewsRec.urls'
-
 # 增加跨域
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = (
-    '*'
-)
 CORS_ALLOW_METHODS = (
     'DELETE',
     'GET',
@@ -82,6 +77,8 @@ CORS_ALLOW_HEADERS = (
     'Pragma',
     'Token',
 )
+
+ROOT_URLCONF = 'NLP_NewsRec.urls'
 
 TEMPLATES = [
     {
