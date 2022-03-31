@@ -25,7 +25,7 @@ SECRET_KEY = 'lmj%6ym-&$q=yko^aq5uuz=!@xm69dtweth_qox$-2hygpvw40'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['api.news.qijiong.work']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
